@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Agronomist</string>
+    <string name="account_name">Account Name</string>
+    <string name="created_time">Created time</string>
+    <string name="description">Description</string>
+    <string name="hash">#hash</string>
+    <string name="location">Location</string>
+    <string name="map">Карта</string>
+    <string name="line">Стрічка</string>
+    <string name="allApplication">Всі заявки</string>
+    <string name="myApplication">Мої заявки</string>
+    <string name="myList">Мій перелік</string>
+    <string name="elected">Вибране</string>
+    <string name="apiKey">AIzaSyBwSo3OTfwMuKyyjKP59zU9-d0og5WkqL8</string>
+</resources>

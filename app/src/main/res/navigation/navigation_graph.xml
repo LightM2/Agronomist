@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/mainFragment"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.svitlanamozharovska.agronomist.MainFragment"
+        tools:layout="@layout/main_fragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_mapFragment"
+            app:popUpTo="@id/mainFragment"
+            app:popUpToInclusive="false"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        tools:layout="@layout/map_fragment"
+        android:name="com.svitlanamozharovska.agronomist.MapFragment"
+        android:label="MapFragment" />
+</navigation>
